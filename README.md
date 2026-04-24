@@ -34,7 +34,7 @@ $ whoami
 
 ## 🧑‍💻 About Me
 
-- 🎓 **2nd year B.Tech Computer Engineering** @ JC Bose University of Science & Technology, YMCA
+- 🎓 **3rd year B.Tech Computer Engineering** @ JC Bose University of Science & Technology, YMCA
 - 🏛️ **Former Full-Stack Dev Intern @ DRDO (DESIDOC)** — built a production portal handling 500+ govt. applicants
 - 🤖 Passionate about **Agentic AI**, **LLM tool-use pipelines**, and **RAG architectures**
 - 🔬 Also exploring **Computer Vision** — gesture recognition, real-time tracking
