@@ -9,8 +9,8 @@
 
 ```bash
 $ whoami
-> Full-Stack Developer · Agentic AI Builder · Computer Vision Explorer
-> B.Tech CSE @ JC Bose University (YMCA) · CGPA: 7.91 · Faridabad, India
+> Full-Stack Developer · Deep RL & Machine Learning · Agentic AI Builder
+> B.Tech Computer Engineering @ JC Bose University (YMCA) · CGPA: 7.91 · Faridabad, India
 > Ex-Intern @ DRDO (DESIDOC) · Open to SDE & AI/ML Internships
 ```
 
@@ -36,43 +36,51 @@ $ whoami
 
 - 🎓 **3rd year B.Tech Computer Engineering** @ JC Bose University of Science & Technology, YMCA
 - 🏛️ **Former Full-Stack Dev Intern @ DRDO (DESIDOC)** — built a production portal handling 500+ govt. applicants
-- 🤖 Passionate about **Agentic AI**, **LLM tool-use pipelines**, and **RAG architectures**
-- 🔬 Also exploring **Computer Vision** — gesture recognition, real-time tracking
+- 🤖 I build **deep reinforcement learning agents from scratch** (PyTorch), plus **agentic AI / LLM tool-use** and **RAG** pipelines
+- 🔬 Also exploring **Computer Vision** — gesture recognition and real-time tracking
 - 🥇 **Best Junior Team** @ Bennett University Hackathon (250+ teams) · **Top 5** @ E-Cell DTU Hackathon
 - 📬 Reach me at **lakshaydalal27@gmail.com**
-- ⚡ Fun fact: I like making computers understand humans — whether through voice agents or hand gestures
+- ⚡ Fun fact: I like making computers understand humans — through traffic that learns, voice agents, and hand gestures
 
 ---
 
 ## 🚀 Projects
 
-> 🔧 **Individual repos being pushed progressively — check back soon for source code!**
+### 🚦 Intelligent Traffic Signal Control — Deep Reinforcement Learning &nbsp;`⭐ Flagship`
+**`Python` · `PyTorch` · `Double DQN` · `SUMO` · `TraCI` · `FastAPI`**
+
+A **Double DQN agent built from scratch in PyTorch** that learns to control a 4-way intersection, dynamically choosing which lane gets the green to minimise total vehicle waiting time. Trained by interacting with the **SUMO** traffic simulator via **TraCI**.
+- 🧠 Double DQN implemented **from scratch — no RL libraries** (no stable-baselines / RLlib)
+- 📉 Cut total vehicle waiting time by **12%** vs a 20s and **45%** vs a 30s fixed-timer baseline
+- 🔬 **Three documented experiments** (baseline DQN → Double DQN → adaptive-duration), including what didn't work
+- 📊 Live **FastAPI** dashboard streaming per-lane Q-values and agent decisions in real time
+
+[![GitHub](https://img.shields.io/badge/GitHub-View%20Repo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/lakshaydalal27/Traffic-Light-Management-System-using-RL-and-SUMO)
 
 ---
 
-### 🎙️ Voice Support & Quotation Agent
+### 🛡️ Pipeline Sentinel — Real-Time Leak Detection & Intelligent Rerouting
+**`Python` · `TensorFlow/Keras` · `LSTM Autoencoder` · `Isolation Forest` · `FastAPI` · `Dijkstra`**
+
+A hybrid anomaly-detection system (24-hour DTU hackathon, team project) that flags pipeline leaks in real time and automatically reroutes flow around the failed node.
+- 🧠 **Hybrid engine** — LSTM Autoencoder (temporal reconstruction error) + Isolation Forest (statistical outliers) fused into a single anomaly score
+- ⚡ **FastAPI ML microservice** behind a Node.js/Express backend streaming sensor data over **WebSockets**
+- 🛣️ On detection, isolates the faulty node and runs **Dijkstra's algorithm** to compute an optimal bypass route
+- 📊 Live **React (Vite)** dashboard with SVG pipeline-topology visualisation and manual override
+
+[![GitHub](https://img.shields.io/badge/GitHub-View%20Repo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/lakshaydalal27/Pipeline-Sentinal)
+
+---
+
+### 🎙️ Voice Support & Quotation Agent &nbsp;`No-code / Automation`
 **`Voiceflow` · `Relevance AI` · `Twilio` · `Make.com` · `WebHooks` · `RAG`**
 
-An agentic AI customer support system with ReAct-style tool-use, multi-step reasoning, real-time quote generation, and a RAG-style knowledge base built via website scraping.
+An agentic AI customer-support system with ReAct-style tool-use and multi-step reasoning, real-time quote generation, automated lead capture, and a RAG-style knowledge base built via website scraping.
 - ⚡ **75% reduction** in average response time over manual handling
 - 📈 **45% boost** in qualified lead intake via automated WebHook capture
 - 🧠 **60% improvement** in query accuracy across voice + chat channels
 
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-388bfd?style=flat-square&logo=vercel&logoColor=white)](https://creator.voiceflow.com/share/6904544d9a34d4e2b6a20aa0/development)
-![Source](https://img.shields.io/badge/Source-Coming%20Soon-30363d?style=flat-square&logo=github)
-
----
-
-### 🔧 Pipeline Sentinel — Leak Detection & Intelligent Rerouting
-**`Python` · `LSTM Autoencoder` · `Isolation Forest` · `React.js` · `Node.js`**
-
-Hybrid AI anomaly detection engine combining temporal and statistical models for pipeline leak detection, with real-time graph-based rerouting and a full-stack operator dashboard.
-- 📉 **~35% fewer false positives** vs. single-model baseline
-- ⚡ Alternate flow paths generated within **seconds** of anomaly detection
-- 📊 Live sensor visualisation with manual override controls
-
-[![GitHub](https://img.shields.io/badge/GitHub-Forked%20Repo-30363d?style=flat-square&logo=github&logoColor=white)](https://github.com/lakshaydalal27/vihaanieee)
-![Own Repo](https://img.shields.io/badge/Own%20Repo-Coming%20Soon-3fb950?style=flat-square&logo=github)
 
 ---
 
@@ -87,13 +95,13 @@ A computer vision project that enables real-time mid-air drawing using hand gest
 
 ---
 
-### 🏛️ JRF Job Application Portal — DRDO (DESIDOC) *(Production)*
+### 🏛️ JRF Job Application Portal — DRDO (DESIDOC) &nbsp;`Production`
 **`MongoDB` · `Express.js` · `React.js` · `Node.js` · `JWT` · `RBAC`**
 
-Production-grade recruitment portal built during internship at a Govt. research organisation. Fully replaced manual workflows across admin, reviewer, and applicant tiers.
+Production-grade recruitment portal built during my internship at a Govt. research organisation. Fully replaced manual workflows across admin, reviewer, and applicant tiers.
 - 🔐 15+ secured REST APIs with JWT auth + 3-tier RBAC
-- 🚀 Lighthouse score **91/100** (vs ~48 on DRDO's existing site)
-- ⚙️ MongoDB indexing + aggregation cut query time by **30%**
+- 🚀 Lighthouse score **91/100** (vs ~48 on the existing site)
+- ⚙️ MongoDB indexing + aggregation cut query time by **~30%**
 
 > ⚠️ *Proprietary — source not publicly available (government project)*
 
@@ -117,16 +125,14 @@ Production-grade recruitment portal built during internship at a Govt. research 
 
 **AI / ML**
 
-[![My Skills](https://skillicons.dev/icons?i=tensorflow,opencv&theme=dark)](https://skillicons.dev)
-&nbsp;`LSTM` &nbsp;`Isolation Forest` &nbsp;`RAG` &nbsp;`LLM Tool-Use` &nbsp;`ReAct` &nbsp;`Voiceflow` &nbsp;`Relevance AI`
+[![My Skills](https://skillicons.dev/icons?i=pytorch,tensorflow,opencv,sklearn&theme=dark)](https://skillicons.dev)
+&nbsp;`Double DQN` &nbsp;`Reinforcement Learning` &nbsp;`LSTM` &nbsp;`Isolation Forest` &nbsp;`Anomaly Detection` &nbsp;`RAG` &nbsp;`LLM Tool-Use` &nbsp;`ReAct`
 
 </div>
 
 ---
 
 ## 📊 GitHub Stats
-
-> 📌 *Stats reflect early-stage profile — projects being uploaded progressively. Check back soon!*
 
 <div align="center">
 
