@@ -10,7 +10,7 @@
 ```bash
 $ whoami
 > Full-Stack Developer · Deep RL & Machine Learning · Agentic AI Builder
-> B.Tech Computer Engineering @ JC Bose University (YMCA) · CGPA: 7.91 · Faridabad, India
+> B.Tech Computer Engineering @ JC Bose University (YMCA) · CGPA: 8.1 · Faridabad, India
 > Ex-Intern @ DRDO (DESIDOC) · Open to SDE & AI/ML Internships
 ```
 
